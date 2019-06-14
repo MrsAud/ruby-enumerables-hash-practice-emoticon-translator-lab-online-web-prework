@@ -14,6 +14,7 @@ def load_library(yml_file)
     
     translator[get_meaning][english] = meaning
   end
+end
 
 def get_japanese_emoticon
   # code goes here
