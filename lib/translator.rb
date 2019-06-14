@@ -9,6 +9,7 @@ def load_library(yml_file)
   }
   
   emote.each do |meaning, translation|
+    new_hash[get_meaning][i] = meaning
   end
 
 def get_japanese_emoticon
