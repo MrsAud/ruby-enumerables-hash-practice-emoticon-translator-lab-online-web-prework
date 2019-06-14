@@ -3,13 +3,13 @@ require "yaml"
 
 def load_library(yml_file)
   emote = YAML.load_file(yml_file)
-  new_hash = {
+  translator = {
     "get_meaning" => {},
     "get_emoticon" => {}
   }
   
   emote.each do |meaning, translation|
-    new_hash[get_meaning][i] = meaning
+    translator[get_meaning][0] = 
   end
 
 def get_japanese_emoticon
