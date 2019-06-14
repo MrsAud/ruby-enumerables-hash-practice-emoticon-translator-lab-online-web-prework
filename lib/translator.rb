@@ -4,8 +4,6 @@ require "yaml"
 def load_library(yml_file)
   emote = YAML.load_file(yml_file)
   new_hash = {}
-  new_hash[:get_meaning] = {}
-  new_hash[:get_emoticon] = {}
   end
 
 def get_japanese_emoticon
