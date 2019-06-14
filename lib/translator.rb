@@ -9,7 +9,10 @@ def load_library(yml_file)
   }
   
   emote.each do |meaning, translation|
-    translator[get_meaning][0] = 
+    english = translation[0]
+    japanese = translation[1]
+    
+    translator[get_meaning][english] = 
   end
 
 def get_japanese_emoticon
