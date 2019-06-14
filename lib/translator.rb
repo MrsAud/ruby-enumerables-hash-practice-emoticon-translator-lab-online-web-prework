@@ -17,7 +17,7 @@ def load_library(yml_file)
   translator
 end
 
-def get_japanese_emoticon(load_library, emoticon)
+def get_japanese_emoticon(file_path, emoticon)
   
 end
 
