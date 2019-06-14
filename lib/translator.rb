@@ -7,6 +7,8 @@ def load_library(yml_file)
     "get_meaning" => {},
     "get_emoticon" => {}
   }
+  
+  emote.each do |key, value|
   end
 
 def get_japanese_emoticon
